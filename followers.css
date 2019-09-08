@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.standard-theme {
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.standard-theme #container {
+    width: 100%;
+    background: rgba(45, 45, 45, 0.6);
+    height: 58px;
+}
+
+.standard-theme #container * {
+    display: inline-block;
+    top: 16px;
+}
+
+.standard-theme #caption {
+    color: #fff;
+    font-weight: 500;
+    width: 9%;
+    position: absolute;
+    left: 1%;
+    text-decoration: underline;
+}
+
+.standard-theme #followers {
+    margin-left: 16px;
+    font-weight: 700;
+    width: 88%;
+    position: absolute;
+    left: 10%;
+    overflow: hidden;
+}
+
+.standard-theme #followers-container {
+    white-space: nowrap;
+}
+
+.standard-theme .follower {
+    margin-left: 16px;
+    font-weight: 700;
+}
