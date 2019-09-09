@@ -1,3 +1,4 @@
+let captionDOM = document.getElementById("caption");
 let followersDOM = document.getElementById("followers-container");
 let followersWrapperDOM = document.getElementById("followers");
 
@@ -37,4 +38,5 @@ let refreshUsers = function () {
     });
 };
 
+captionDOM.innerHTML = config.caption;
 refreshUsers();
