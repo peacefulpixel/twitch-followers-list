@@ -8,6 +8,7 @@ Download source code and copy all files from ``src/`` to any folder on your comp
 
 - ``caption`` - text that displays in begin of the followers line
 - ``username`` - twitch channel name whose followers will to display
+- ``theme`` - current theme. List of available themes are descript after this parameter
 
 For example this config will display followers of channel ``https://www.twitch.tv/grustniyoleg`` with caption ``folowrs))``:
 
@@ -15,6 +16,7 @@ For example this config will display followers of channel ``https://www.twitch.t
 let config = {
     caption:  "folowrs)):",
     username: "grustniyoleg",
+    theme: "light", /* Avaialable themes: ... */
 };
 ```
 
