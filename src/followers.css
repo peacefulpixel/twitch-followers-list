@@ -4,23 +4,25 @@ body {
     overflow: hidden;
 }
 
-.standard-theme {
+/* Dark theme */
+
+.theme-dark {
     font-family: 'Comfortaa', cursive;
     text-shadow: 1px 1px 1px #222;
 }
 
-.standard-theme #container {
+.theme-dark #container {
     width: 100%;
     background: rgba(45, 45, 45, 0.6);
     height: 58px;
 }
 
-.standard-theme #container * {
+.theme-dark #container * {
     display: inline-block;
     top: 16px;
 }
 
-.standard-theme #caption {
+.theme-dark #caption {
     color: #fff;
     font-weight: 500;
     width: 9%;
@@ -29,7 +31,7 @@ body {
     text-decoration: underline;
 }
 
-.standard-theme #followers {
+.theme-dark #followers {
     margin-left: 16px;
     font-weight: 700;
     width: 88%;
@@ -38,11 +40,56 @@ body {
     overflow: hidden;
 }
 
-.standard-theme #followers-container {
+.theme-dark #followers-container {
     white-space: nowrap;
 }
 
-.standard-theme .follower {
+.theme-dark .follower {
+    margin-left: 16px;
+    font-weight: 700;
+}
+
+/* Light theme */
+
+.theme-light {
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.theme-light #container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    height: 58px;
+}
+
+.theme-light #container * {
+    display: inline-block;
+    top: 16px;
+}
+
+.theme-light #caption {
+    color: #333;
+    font-weight: 500;
+    width: 9%;
+    position: absolute;
+    left: 1%;
+    text-decoration: underline;
+}
+
+.theme-light #followers {
+    margin-left: 16px;
+    font-weight: 700;
+    width: 88%;
+    position: absolute;
+    left: 10%;
+    overflow: hidden;
+}
+
+.theme-light #followers-container {
+    white-space: nowrap;
+}
+
+.theme-light .follower {
     margin-left: 16px;
     font-weight: 700;
 }

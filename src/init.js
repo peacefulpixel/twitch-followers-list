@@ -19,3 +19,10 @@ let TwitchAPIWrapper = {
                 true, parentCallback);
     },
 };
+
+/* Theme initializtion */
+
+(function() {
+    let body = document.body;
+    body.classList.add("theme-" + config.theme);
+})()
